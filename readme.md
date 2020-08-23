@@ -1,45 +1,43 @@
 # WKP8
 
-Hello team! Here's the weekend project 8.
+## My reports
 
-We're going to build a hit parade.
+### 1- The structure of my project.
 
-![./assets/hit-parade.jpg](./assets/hit-parade.jpg)
+- I build a html and named the class needed
+- I drag the elements wich I need from the html to the js code
+- I create a new big array to handle the lists will be given from the input
+- I created html in my js code for setting the lists songs wich relies on the ampty array
 
--   That's a list of songs, sorted from the most popular to the least popular.
--   When we add a new song to the hit parade, the song score is set to zero.
--   The song list is always sorted from the highest score song to the lowest.
--   We can increment the score by clicking the +1 button.
--   We wan delete a song from the list by clicking the bin icon.
--   We can filter the list, by searching for a song title
--   We can filter the list, by selecting a song style in the select.
--   When we click the _reset filters_ button, the filter form is reset, and the list comes back to normal.
--   The data will be saved on the localstorage (except when you filter data)
 
-### Tips :
+### 2- If I had more time, I need to improve these things
 
--   Focus on the features first, and if you have some time left, try to replicate this design.
--   Start by choosing the song data structure, and create a few of them in the code.
--   Focus on your basic app functionality first, and then try to save the state of your app to _Local Storage_.
+- I am still strugling to use the dataset and the id.
+- Accessing the local storage
+- Increasing number by clicking to the list
+- using map properly
 
-Also, please update this readme with the answer to those questions before submitting the project.
+### 3- New thing that I learn from this project
 
-### Student report :
+- I don't really have new things to learn
 
-1. In a few sentences, explain the structure of your project.
+### 4- The most challenging part for me
 
-2. If you had more time, what area of your project would you improve?
+- Increasing number
+- deleting lists
+- searching another lists
 
-3. Did you learn anything new while working on this project?
+### 5- More explanation about a specific topic
 
-4. What was the most challenging part for you?
+I need more explanation about using dataset and the id, and also, the local storage.
+Explanation about deleting and accessing the reseach inside the lists 
 
-5. Would you like a new explanation about a specific topic?
+### 6- Any comments
 
-6. Any other comments?
+- There are an expected thing: when I click the increasement button it increase in the console log, I didn't have much time to fix it so I have to leave it there.
 
-Fork this project and then clone your fork to your computer.
+- I have got error that I couldn't solve. When I click my delete button, it throws an error. It is because of my local storage.
 
-I will download everybody's fork on **_Sunday at 5pm_**.
+- I couldn't have anytime to do my css or to style it beautifully so I just leave there too.
 
-Good luck everyone! 🔥
+**I am very sorry from all bad things happening: error and bad css**

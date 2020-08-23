@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WKP 8</title>
+</head>
+
+<body>
+  <header>
+    <h1>Hit parade</h1>
+  </header>
+  <main>
+    <header>
+      <h2>Add a song</h2>
+    </header>
+    <div class="form">
+      <form>
+        <p>
+          <label for="title">Song title</label><br>
+          <input type="text" id="title" name="title" value="God is not through with you yet">
+        </p>
+        <p>
+          <label for="name">Artist name</label><br>
+          <input type="text" id="name" name="name" value="Detty Sisters">
+        </p>
+        <p>
+          <label for="style">Song style</label><br>
+          <input type="text" name="style" id="style" value="evengelic">
+        </p>
+        <p>
+          <label for="length">Song length</label><br>
+          <input type="text" name="length" id="length" value="10">
+        </p>
+        <p>
+          <label for="img">Artist picture</label><br>
+          <input type="url" name="img" id="img" value="https://">
+        </p>
+        <button type="submit" class="add">
+          Add
+        </button>
+      </form>
+      <div class="filtering">
+        <p>
+          <span>Search a Song</span><br>
+          <input type="text" id="title" name="title" placeholder="enter a song title">
+        </p>
+        <p>
+          <span>Select a style </span><br>
+          <select name="style" id="style">
+            <option value="afro">Afro</option>
+            <option value="drum">Drum</option>
+            <option value="bass">Bass</option>
+            <option value="downtempo">Downtempo</option>
+            <option value="ambient">Ambient</option>
+          </select>
+        </p>
+        <button class="filterbtn">reset filters</button>
+        <div class="ListsSong"></div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.filtering {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.ListsSong {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin-inline-end: 5rem;
+}
+
+
+.filterbtn {
+    height: 30px;
+    width: 100px;
+    margin-block-start: 1.5rem;
+}
